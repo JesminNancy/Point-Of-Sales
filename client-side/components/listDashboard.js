@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import DataTable from 'react-data-table-component';
+import { Area, AreaChart, CartesianGrid, ResponsiveContainer, Tooltip } from 'recharts';
 
 export default class listDashboard extends Component {
 
@@ -49,20 +50,23 @@ export default class listDashboard extends Component {
                         </Col>
 
 
-                        {/* <Col className="p-1 animated zoomIn" sm={12} xs={12} md={12} lg={12}>
+                        <Col className="p-1 animated zoomIn" sm={12} xs={12} md={12} lg={12}>
                             <Card>
                                 <Card.Body>
                                     <h1 className="count-title">Last 7 Days</h1>
+
                                     <ResponsiveContainer width="100%" height={200}>
-                                         <AreaChart  data={this.props.dataChart}>
+                                        <AreaChart  data={this.props.dataChart}>
                                             <CartesianGrid strokeDasharray="3 3" />
                                             <Tooltip />
                                             <Area type="monotone" dataKey="income" stroke="#CB4D85" fill="#CB4D85" />
-                                        </AreaChart> 
+                                        </AreaChart>
                                     </ResponsiveContainer>
+
+
                                 </Card.Body>
                             </Card>
-                        </Col> */}
+                        </Col> 
 
                     </Row>
                 </Col>
