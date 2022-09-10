@@ -9,9 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.1",
     "next": "12.3.0",
+    "nextjs-progressbar": "^0.0.14",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-bootstrap": "^2.5.0",
+    "react-data-table-component": "^7.5.3",
+    "react-dom": "18.2.0",
+    "recharts": "^2.1.14",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "eslint": "8.23.0",
