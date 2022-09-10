@@ -1,0 +1,19 @@
+.card {
+  border: none !important;
+  border-radius: 6px !important;
+  box-shadow: 0 0 8px 0 rgba(57, 78, 234, 0.1);
+  transition: 0.3s;
+  text-decoration: none !important;
+}
+.card:hover {
+  box-shadow: 0 0 12px 0 rgba(57, 78, 234, 0.1);
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.product-img {
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}

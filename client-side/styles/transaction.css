@@ -1,0 +1,78 @@
+.product-name {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+.product-price {
+  color: #cb4d85;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+.product-card {
+  border-radius: 4px;
+  padding: 5px !important;
+  border: 0.5px solid #e6e6e6;
+}
+.product-card:hover {
+  background: #e6e6e6;
+  cursor: pointer;
+}
+.category-name {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  border-bottom: 2px solid #ffffff;
+}
+
+.category-name:hover {
+  color: #cb4d85;
+}
+
+.ListTransactionHeight {
+  height: 450px;
+}
+.ListTransactionCartHeight {
+  height: 400px;
+}
+.ListTransaction {
+  overflow-y: scroll;
+  scrollbar-color: #cccccc #e6e6e6;
+  scrollbar-width: thin;
+}
+
+.ListTransaction::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.ListTransaction::-webkit-scrollbar-track-piece {
+  background-color: #cccccc;
+}
+
+.ListTransaction::-webkit-scrollbar-thumb:vertical {
+  height: 5px;
+  background-color: #cccccc;
+}
+
+.circular-btn {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background: #009e3e !important;
+  border: 0.5px solid #009e3e;
+  font-size: 14px;
+  margin: 5px;
+  border-radius: 50% !important;
+  box-shadow: none !important;
+}
+.circular-btn:hover {
+  color: white;
+  background: #cb4d85 !important;
+  border: 0.5px solid #cb4d85;
+}

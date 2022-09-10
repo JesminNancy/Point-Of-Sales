@@ -1,0 +1,15 @@
+.cat-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: scale-down;
+}
+.product-img {
+  width: 80px;
+  height: 80px;
+  object-fit: scale-down;
+}
+.cart-image {
+  width: 40px;
+  height: 40px;
+  object-fit: scale-down;
+}

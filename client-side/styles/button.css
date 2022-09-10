@@ -1,0 +1,38 @@
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.btn {
+  border-radius: 3px !important;
+  cursor: pointer !important;
+  font-weight: 300;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.btn:focus {
+  box-shadow: none !important;
+}
+.btn-site {
+  color: #fff !important;
+  background-color: #cb4d85 !important;
+  border-color: #cb4d85 !important;
+}
+.btn-site:hover {
+  background-color: #c23272 !important;
+  border-color: #c23272 !important;
+}
+.circular-btn {
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #1ca345 !important;
+  border: none;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16), 0 4px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.circular-btn:hover {
+  color: white;
+  background-color: #1ea361 !important;
+}

@@ -1,0 +1,35 @@
+.form-control:focus {
+  border-color: #c23272 !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.form-control {
+  box-shadow: none;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto Condensed", sans-serif;
+  border-radius: 3px !important;
+}
+.form-select:focus {
+  border-color: #c23272 !important;
+  box-shadow: none !important;
+}
+.form-select {
+  box-shadow: none;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 10px;
+  border-radius: 0% !important;
+}
+
+.form-label {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.form-label {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+}
