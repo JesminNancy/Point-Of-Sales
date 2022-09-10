@@ -1,12 +1,16 @@
-import React, { Component } from 'react'
-import NavMenuDesktop from '../components/NavMenuDesktop'
+import React, { Component } from 'react';
+import ListReport from "../components/listReport";
+import NavMenuDesktop from "../components/NavMenuDesktop";
 
-export default class report extends Component {
-  render() {
-    return (
-      <div>
-        <NavMenuDesktop/>
-      </div>
-    )
-  }
+class Report extends Component {
+    render() {
+        return (
+            <div>
+                <NavMenuDesktop/>
+                <ListReport/>
+            </div>
+        );
+    }
 }
+
+export default Report;
