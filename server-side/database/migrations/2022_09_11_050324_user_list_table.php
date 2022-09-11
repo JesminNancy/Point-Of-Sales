@@ -17,7 +17,7 @@ return new class extends Migration
             $table->bigIncrements('id');
             $table->string('fullname');
             $table->string('username');
-            $table->string('roll');
+            $table->string('role');
             $table->string('lastactivity');
             $table->string('password');
         });
