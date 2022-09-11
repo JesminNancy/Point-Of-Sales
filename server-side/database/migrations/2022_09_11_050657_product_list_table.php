@@ -13,7 +13,15 @@ return new class extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('product_list',function (Blueprint $table){
+            $table->bigIncrements('id');
+            $table->string('product_name');
+            $table->string('product_code');
+            $table->string('product_icon');
+            $table->string('product_price');
+            $table->string('product_category');
+            $table->string('product_remarks');
+        });
     }
 
     /**

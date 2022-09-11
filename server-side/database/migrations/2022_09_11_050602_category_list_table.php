@@ -13,7 +13,12 @@ return new class extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('category_list',function (Blueprint $table){
+            $table->bigIncrements('id');
+            $table->string('cat_name');
+            $table->string('cat_code');
+            $table->string('cat_icon');
+        });
     }
 
     /**

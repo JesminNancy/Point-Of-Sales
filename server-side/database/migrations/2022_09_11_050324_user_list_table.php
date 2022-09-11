@@ -13,7 +13,14 @@ return new class extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('user_list',function (Blueprint $table){
+            $table->bigIncrements('id');
+            $table->string('fullname');
+            $table->string('username');
+            $table->string('roll');
+            $table->string('lastactivity');
+            $table->string('password');
+        });
     }
 
     /**
