@@ -53,4 +53,5 @@ class CategoryController extends Controller
 
         return $result;
     }
+
 }
