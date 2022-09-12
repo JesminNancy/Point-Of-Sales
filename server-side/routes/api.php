@@ -40,3 +40,7 @@ Route::get('/selectProductByCategory/{category}',[ProductController::class,'dele
 Route::get('/deleteProduct/{id}',[ProductController::class,'deleteProduct']);
 Route::post('/withoutiamge',[ProductController::class,'updateProductWithoutImage']);
 Route::post('/withiamge',[ProductController::class,'updateProductWithImage']);
+
+//Dashboard
+Route::get('/countProduct',[DashboardController::class,'countProduct']);
+Route::get('/countCategory',[DashboardController::class,'countCategory']);
