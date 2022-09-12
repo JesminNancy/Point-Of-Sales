@@ -44,3 +44,11 @@ Route::post('/withiamge',[ProductController::class,'updateProductWithImage']);
 //Dashboard
 Route::get('/countProduct',[DashboardController::class,'countProduct']);
 Route::get('/countCategory',[DashboardController::class,'countCategory']);
+
+
+// Cart
+Route::post('/cartAdd',[CartController::class,'cartAdd']);
+Route::get('/cartItemPlus/{id}/{quantity}/{price}',[CartController::class,'cartItemPlus']);
+Route::get('/cartItemMinus/{id}/{quantity}/{price}',[CartController::class,'cartItemMinus']);
+Route::get('/removeCartList/{id}',[CartController::class,'removeCartList']);
+Route::get('/cartList',[CartController::class,'cartList']);
