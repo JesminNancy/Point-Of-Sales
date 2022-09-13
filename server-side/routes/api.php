@@ -52,3 +52,8 @@ Route::get('/cartItemPlus/{id}/{quantity}/{price}',[CartController::class,'cartI
 Route::get('/cartItemMinus/{id}/{quantity}/{price}',[CartController::class,'cartItemMinus']);
 Route::get('/removeCartList/{id}',[CartController::class,'removeCartList']);
 Route::get('/cartList',[CartController::class,'cartList']);
+
+//Transaction
+Route::get('/cartSell/{invoice}',[TransactionController::class,'cartSell']);
+Route::get('/transactionList',[TransactionController::class,'transactionList']);
+Route::get('/recentTransactionList',[TransactionController::class,'recentTransactionList']);
