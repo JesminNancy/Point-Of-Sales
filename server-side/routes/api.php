@@ -44,6 +44,8 @@ Route::post('/withiamge',[ProductController::class,'updateProductWithImage']);
 //Dashboard
 Route::get('/countProduct',[DashboardController::class,'countProduct']);
 Route::get('/countCategory',[DashboardController::class,'countCategory']);
+Route::get('/countTransaction',[DashboardController::class,'countTransaction']);
+Route::get('/countTotalIncome',[DashboardController::class,'countTotalIncome']);
 
 
 // Cart

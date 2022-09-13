@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\ProductModel;
 use App\Models\CategoryModel;
+use App\Http\TransactionModel;
 
 class DashboardController extends Controller
 {
