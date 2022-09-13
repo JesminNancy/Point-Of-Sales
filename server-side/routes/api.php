@@ -47,6 +47,7 @@ Route::get('/countProduct',[DashboardController::class,'countProduct']);
 Route::get('/countCategory',[DashboardController::class,'countCategory']);
 Route::get('/countTransaction',[DashboardController::class,'countTransaction']);
 Route::get('/countTotalIncome',[DashboardController::class,'countTotalIncome']);
+Route::get('/IncomeLast7Days',[DashboardController::class,'IncomeLast7Days']);
 
 
 // Cart
