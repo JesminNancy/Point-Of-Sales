@@ -34,6 +34,10 @@ class DashboardController extends Controller
 
         }
 
+        function recentTransactionList(){
+            $result=TransactionModel::orderById('id', 'desc')->limit(25)->get();
+            return $result;
+        }
 
         function IncomeLast7Days(){
 

@@ -47,6 +47,7 @@ Route::get('/countProduct',[DashboardController::class,'countProduct']);
 Route::get('/countCategory',[DashboardController::class,'countCategory']);
 Route::get('/countTransaction',[DashboardController::class,'countTransaction']);
 Route::get('/countTotalIncome',[DashboardController::class,'countTotalIncome']);
+Route::get('/recentTransactionList',[DashboardController::class,'recentTransactionList']);
 Route::get('/IncomeLast7Days',[DashboardController::class,'IncomeLast7Days']);
 
 
@@ -59,5 +60,9 @@ Route::get('/cartList',[CartController::class,'cartList']);
 
 //Transaction
 Route::get('/cartSell/{invoice}',[TransactionController::class,'cartSell']);
-Route::get('/transactionList',[TransactionController::class,'transactionList']);
-Route::get('/recentTransactionList',[TransactionController::class,'recentTransactionList']);
+
+
+
+//Report
+Route::get('/transactionList',[ReportController::class,'transactionList']);
+Route::get('/TransactionListByDate',[ReportController::class,'TransactionListByDate']);
