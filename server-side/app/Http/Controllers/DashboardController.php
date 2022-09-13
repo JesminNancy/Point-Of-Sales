@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\ProductModel;
 use App\Models\CategoryModel;
-use App\Http\TransactionModel;
+use App\Models\TransactionModel;
 
 class DashboardController extends Controller
 {
@@ -28,8 +28,10 @@ class DashboardController extends Controller
         $transaction=TransactionModel::all();
         $total_income=0;
         foreach($transaction as $transactionlist){
-            $total_income=$total_income+transactionlist['product_total_price'];
+            $total_income=$total_income+$transactionlist['product_total_price'];
         }
         return $total_income;
-    }
+
+        }
+
 }
